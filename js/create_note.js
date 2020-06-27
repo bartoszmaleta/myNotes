@@ -34,7 +34,7 @@ function setDeleteButtonEvent(noteTopBarDeleteButton) {
     noteTopBarDeleteButton.addEventListener('click', function (event) {
         let targetElement = event.target;
         targetElement = targetElement.parentNode;
-        targetElement = targetElement.parentNode;
+        // targetElement = targetElement.parentNode;
         document.body.removeChild(targetElement);
     }, false);
 }
