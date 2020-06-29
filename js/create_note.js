@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; // to need declaration of type
 
 function getNoteDiv() {
 
