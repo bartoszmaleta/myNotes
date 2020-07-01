@@ -1,4 +1,4 @@
-'use strict'; // to need declaration of type
+'use strict'; // to need declaration of type !!
 
 function getNoteDiv() {
 
@@ -9,7 +9,7 @@ function getNoteDiv() {
 
 function setRandomNotePosition(newNote) {
 
-    let randomPositionX = Math.random() * 800;
+    let randomPositionX = Math.random() * 800; 
     let randomPositionY = Math.random() * 300;
 
     newNote.style.transform = "translateX(" +
@@ -105,4 +105,4 @@ function setAddNoteEvent() {
     }, false);
 }
 
-setAddNoteEvent();
+setAddNoteEvent(); // Event activation
